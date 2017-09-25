@@ -17,6 +17,15 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase: {
+      apiKey: "AIzaSyDIf1XnyC5VSfwpQoaYXu4COa34RWG_Iow",
+      authDomain: "ember-test-3e077.firebaseapp.com",
+      databaseURL: "https://ember-test-3e077.firebaseio.com",
+      projectId: "ember-test-3e077",
+      storageBucket: "ember-test-3e077.appspot.com",
+      messagingSenderId: "580632400275"
+    },
+
 
     APP: {
       // Here you can pass flags/options to your application instance
