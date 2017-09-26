@@ -1,0 +1,13 @@
+.jumbotron {
+  background-color: #D29494;
+  text-align: center;
+}
+
+ul {
+  border: 3px solid #888;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  border-radius: 15px;
+  background: #F6EAEA;
+  padding: 40px 12px 10px 20px;
+}
