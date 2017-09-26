@@ -9,6 +9,7 @@ export default DS.Model.extend({
   reviews: DS.hasMany('review', {
     async: true
   }),
+  cost: DS.attr(),
 
   actions: {
     saveReview(params) {
