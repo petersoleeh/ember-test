@@ -9,6 +9,7 @@ export default DS.Model.extend({
   reviews: DS.hasMany('review', {
     async: true
   }),
+
   actions: {
     saveReview(params) {
       var newReview = this.store.createRecord('review', params);
